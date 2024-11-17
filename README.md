@@ -12,6 +12,7 @@
 1. Ingest and create our Customer 360 database, with tables easy to query in SQL- We are implementing a *medaillon / multi-hop* architecture, but we could also build a star schema, a data vault or follow any other modeling approach
 
 ![Medallion](Medallion.png)
-3. Secure data and grant read access to the Data Analyst and Data Science teams.
-4. Run BI queries to analyse existing churn -Ingesting, transforming and cleaning data to create clean SQL tables for our downstream user 
-5. Build ML model to predict which customer is going to churn and why
+
+2. Secure data and grant read access to the Data Analyst and Data Science teams.
+3. Run BI queries to analyse existing churn -Ingesting, transforming and cleaning data to create clean SQL tables for our downstream user 
+4. Build ML model to predict which customer is going to churn and why
