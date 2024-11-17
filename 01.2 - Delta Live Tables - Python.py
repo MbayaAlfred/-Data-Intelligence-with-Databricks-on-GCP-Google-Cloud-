@@ -21,7 +21,7 @@ usersRawDataDir = rawDataDirectory + "/users"
 # MAGIC
 # MAGIC Let's use it to our pipeline and ingest the raw JSON & CSV data being delivered in our blob cloud storage. 
 
-# COMMAND ----------
+
 
 # DBTITLE 1,Ingest raw app events stream in incremental mode
 @dlt.create_table(comment="Application events and sessions")
