@@ -20,3 +20,10 @@
  ### Create final churn features Table
  ![DLT Churn features Table](final.png)
 4. Build ML model to predict which customer is going to churn and why - Implement ML lifecyle
+#### The ML lifecycle is made of data pipelines: Data-preprocessing, feature engineering, training, inference, monitoring and retraining
+![ML Life Cycle](lifecycle.png)
+
+1.  Build a model predicting and explaining customer Churn.
+2.  Use scikit-learn algorithm , we will convert the feature table into a pandas model
+3.  After running AutoML we saved our best model our MLflow registry
+4.  Databricks SQL is used to start analyzing our customer Churn using Power BI tools
