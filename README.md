@@ -17,5 +17,6 @@
 3. Run BI queries to analyse existing churn -Ingesting, transforming and cleaning data to create clean SQL tables for our downstream user.
 
  ![DLT Pipeline](pipeline.png)
-   
-4. Build ML model to predict which customer is going to churn and why
+ ### Create final churn features Table
+ ![DLT Churn features Table](final.png)
+4. Build ML model to predict which customer is going to churn and why - Implement ML lifecyle
