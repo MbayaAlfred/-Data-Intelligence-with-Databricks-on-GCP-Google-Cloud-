@@ -5,7 +5,7 @@
 -- MAGIC Building a C360 database requires to ingest multiple datasources.  
 -- MAGIC
 -- MAGIC It's a complex process requiring batch loads and streaming ingestion to support real-time insights, used for personalization and marketing targeting among other.
--- MAGIC
+
 -- MAGIC Ingesting, transforming and cleaning data to create clean SQL tables for our downstream user (Data Analysts and Data Scientists) is complex.
 -- MAGIC
 -- MAGIC <link href="https://fonts.googleapis.com/css?family=DM Sans" rel="stylesheet"/>
