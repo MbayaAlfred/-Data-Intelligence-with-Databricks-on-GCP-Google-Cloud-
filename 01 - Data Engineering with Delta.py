@@ -1,25 +1,6 @@
-# Databricks notebook source
-# MAGIC %md-sandbox
-# MAGIC # Building a Spark Data pipeline with Delta Lake
-# MAGIC
-# MAGIC With this notebook we are buidling an end-to-end pipeline consuming our customers information.
-# MAGIC
-# MAGIC We are implementing a *medaillon / multi-hop* architecture, but we could also build a star schema, a data vault or follow any other modeling approach.
-# MAGIC
-# MAGIC
-# MAGIC With traditional systems this can be challenging due to:
-# MAGIC  * data quality issues
-# MAGIC  * running concurrent operations
-# MAGIC  * running DELETE/UPDATE/MERGE operations on files
-# MAGIC  * governance & schema evolution
-# MAGIC  * poor performance from ingesting millions of small files on cloud blob storage
-# MAGIC  * processing & analysing unstructured data (image, video...)
-# MAGIC  * switching between batch or streaming depending of your requirements...
-# MAGIC
-# MAGIC ## Overcoming these challenges with Delta Lake
-# MAGIC
-# MAGIC <div style="float:left">
-# MAGIC
+
+# Building a Spark Data pipeline with Delta Lake
+
 # MAGIC **What's Delta Lake? It's a OSS standard that brings SQL Transactional database capabilities on top of parquet files!**
 # MAGIC
 # MAGIC Used as a Spark format, built on top of Spark API / SQL
