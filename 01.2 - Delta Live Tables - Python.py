@@ -9,7 +9,7 @@ eventsRawDataDir = rawDataDirectory + "/events"
 ordersRawDataDir = rawDataDirectory + "/orders"
 usersRawDataDir = rawDataDirectory + "/users"
 
-# COMMAND ----------
+
 
 # MAGIC %md-sandbox
 # MAGIC ### 1/ Loading our data using Databricks Autoloader (cloud_files)
