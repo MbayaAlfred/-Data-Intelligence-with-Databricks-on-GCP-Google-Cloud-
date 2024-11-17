@@ -27,3 +27,6 @@
 2.  Use scikit-learn algorithm , we will convert the feature table into a pandas model
 3.  After running AutoML we saved our best model our MLflow registry
 4.  Databricks SQL is used to start analyzing our customer Churn using Power BI tools
+
+#### Data Analyst can now analyze the data using Power BI: What can we conclude ? 
+![Report](report.png)
