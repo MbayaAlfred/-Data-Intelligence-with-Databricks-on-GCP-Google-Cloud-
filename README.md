@@ -14,5 +14,5 @@
 ![Medallion](Medallion.png)
 
 2. Secure data and grant read access to the Data Analyst and Data Science teams.
-3. Run BI queries to analyse existing churn -Ingesting, transforming and cleaning data to create clean SQL tables for our downstream user 
+3. Run BI queries to analyse existing churn -Ingesting, transforming and cleaning data to create clean SQL tables for our downstream user -
 4. Build ML model to predict which customer is going to churn and why
