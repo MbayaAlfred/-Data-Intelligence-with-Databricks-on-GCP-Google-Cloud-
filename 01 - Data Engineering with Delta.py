@@ -2,7 +2,7 @@
 # Building a Spark Data pipeline with Delta Lake
 
 # MAGIC **What's Delta Lake? It's a OSS standard that brings SQL Transactional database capabilities on top of parquet files!**
-# MAGIC
+
 # MAGIC Used as a Spark format, built on top of Spark API / SQL
 # MAGIC
 # MAGIC * **ACID transactions** (Multiple writers can simultaneously modify a data set)
